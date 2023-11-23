@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" type = "text/css" href = "{{ url_for('static', filename = 'css/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh; /* Zwiększono wysokość do 100vh, aby uzyskać pełny widok na ekranie */
+            margin: 0;
+            background-color: #f4f4f4; /* Dodano jasny kolor tła */
+        }
+
+        .content {
+            text-align: center;
+            background-color: #fff; /* Dodano białe tło */
+            padding: 20px;
+            border-radius: 10px; /* Dodano zaokrąglenie rogów */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Dodano lekki cień */
+        }
+
+        h1 {
+            color: #333; /* Dodano kolor tekstu dla nagłówka */
+        }
+
+        h2 {
+            color: #555; /* Dodano kolor tekstu dla podnagłówka */
+        }
+
+        .form-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        form {
+            width: 100%; /* Zwiększono szerokość formularza do 100% */
+            max-width: 300px; /* Ograniczono maksymalną szerokość formularza */
+            margin: 0 auto; /* Wycentrowano formularz */
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #333; /* Dodano kolor tekstu dla etykiety */
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50; /* Dodano kolor tła dla przycisku submit */
+            color: white; /* Dodano kolor tekstu dla przycisku submit */
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049; /* Dodano kolor tła dla przycisku submit po najechaniu myszką */
+        }
+        h3 {
+            margin-top: 20px;
+            color: #555; /* Dodano kolor tekstu dla napisu */
+        }
+
+        button {
+            padding: 10px;
+            background-color: #008CBA; /* Dodano kolor tła dla przycisku */
+            color: white; /* Dodano kolor tekstu dla przycisku */
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #005582; /* Dodano kolor tła dla przycisku po najechaniu myszką */
+        }
+        h4 {
+        margin: 10px 0; /* Dodano odstęp górny i dolny dla komunikatu */
+        font-size: 16px; /* Dostosowano rozmiar czcionki */
+        font-family: 'Arial', sans-serif; /* Zmieniono czcionkę */
+        }
+        body {
+            background-color: #f4f4f4;
+        }
+
+        .content {
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            max-width: 800px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        form {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #008CBA;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #008CBA;
+        }
+
+        input[type="submit"]:last-child {
+            background-color: #008CBA;
+            margin-top: 10px;
+        }
+
+        input[type="submit"]:last-child:hover {
+            background-color: #008CBA;
+        }
+        .done-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #28a745;
+        color: white;
+        text-decoration: none;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+        }
+
+        .done-button:hover {
+            background-color: #218838;
+        }
+    </style>
+    {% block head %}{% endblock %}
+</head>
+<body>
+    {% block body %}{% endblock %}
+</body>
+</html>
