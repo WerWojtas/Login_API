@@ -9,5 +9,6 @@ Key aspects of the application:
 - To-Do List Management: Logged-in users have the capability to add, remove, and update their tasks. This provides a convenient and flexible working environment where users can efficiently manage their duties.
 
 <img src="https://github.com/WerWojtas/Login_API/blob/main/img/1.png" width=500>
+<img src="https://github.com/WerWojtas/Login_API/blob/main/img/2.png" width=500>
 
   
