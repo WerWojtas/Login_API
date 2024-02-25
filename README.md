@@ -1,2 +1,6 @@
-# Student_helper_api
-Advanced student assistance application connected to a database, featuring a user registration system with email verification and a user panel equipped with Task Master. In the Task Master, students can add, edit, delete, and mark tasks as done. Additional features will be implemented in the future.
+# Login API
+"Login API" is an application that facilitates user registration and stores their data in a database. Its core functionality includes email address verification by sending personalized links with unique tokens. Leveraging the Flask framework in Python, the application also allows authorized users to manage their to-do lists.
+
+Key aspects of the application:
+
+- User Registration: Users can easily register by providing required information such as email address and password. Upon registration, their data is securely stored in a database.
