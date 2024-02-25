@@ -11,5 +11,5 @@ Key aspects of the application:
 <img src="https://github.com/WerWojtas/Login_API/blob/main/img/1.png" width=500>
 <img src="https://github.com/WerWojtas/Login_API/blob/main/img/2.png" width=500>
 <img src="https://github.com/WerWojtas/Login_API/blob/main/img/3.png" width=500>
-
+<img src="https://github.com/WerWojtas/Login_API/blob/main/img/4.png" width=500>
   
