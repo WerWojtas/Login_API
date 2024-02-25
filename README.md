@@ -8,6 +8,6 @@ Key aspects of the application:
 - Login: After successful verification, users can log in to the application using their credentials. This grants them access to their account and the ability to manage their to-do list.
 - To-Do List Management: Logged-in users have the capability to add, remove, and update their tasks. This provides a convenient and flexible working environment where users can efficiently manage their duties.
 
-<img src="https://github.com/WerWojtas/Login_API/blob/main/img/1.png" width=800>
+<img src="https://github.com/WerWojtas/Login_API/blob/main/img/1.png" width=500>
 
   
