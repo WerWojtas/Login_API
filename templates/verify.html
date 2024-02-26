@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <title>Home Page</title>
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <h2>Verify your account. Enter an email below to send verification message.</h2>
+    <div class="form-container">
+        <form action="/verify" method="POST">
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email">
+            <input type="submit" value="Send">
+        </form>
+    {{ message }}
+    </div>
+    <h3>Already have an account? Log in here:</h3>
+    <a href="/">
+        <button>Log in</button>
+{% endblock %}

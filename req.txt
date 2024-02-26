@@ -1,0 +1,8 @@
+python-dotenv = 1.0.0
+Python = 3.11.5
+email-validator  == 2.1.0.post1
+Flask == 3.0.0
+Flask-Login == 0.6.3
+Flask-Mail == 0.9.1
+Flask-MySQLdb == 2.0.0
+Flask-SQLAlchemy == 3.1.1
